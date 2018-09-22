@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header-area {
+  border-bottom: 1px solid #56A79A;
+}
+#header-area .col-md-2 a {
+  color: yellow;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar ul {
+  margin-top: 20px;
+}
+.navbar ul li {
+  display: inline-block;
+  float: right;
+  list-style: none outside none;
+  margin-top: 6px;
+  padding-right: 20px;
+}
+.navbar ul li a {
+  color: #90908c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar ul li a:hover, .navbar ul li a:active {
+  border-bottom: 3px solid #56A79A;
+    color: #56A79A;
+}
+/**********************************************************************
+SLIDER CSS*/
+#slider-area {
+  height: 555px;
+  position: relative;
+}
+.slider-text {
+  left: 46px;
+  position: absolute;
+  text-align: center;
+  top: 198px;
+}
+.slider-text h2 {
+  font-size: 27px;
+  font-weight: 600;
+  width: 223px;
+}
+.slider-text p {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.slider-text {
+  position: absolute;
+  left: 34%;
+  text-align: center;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+/***************************************************************************************
+*RESPONSIVE CSS FROOM HERE*
+****************************************************************************************/
+
+/*EXTRA LARGE DESKTOP 1920px*/
+
+@media only screen and (min-width:1920px){
+    
+    
+}
+
+/*LARGE DESKTOP 1366px*/
+
+@media only screen and (min-width:1200px)and (max-width:1919px){
+    
+    
+}
+
+/*medium DESKTOP 990px-1124px*/
+
+@media only screen and (min-width:992px)and (max-width:1199px){
+    
+    
+}
+
+/************ TABLET 768px**************/
+
+@media only screen and (min-width:768px)and (max-width:991px){
+    
+    
+}
+/*****all mobile device******/
+
+@media only screen and(max-width:767px){
+    .mean-bar{
+        display: block;
+    }
+    
+}
+
+/****wide screen mobile device******/
+
+@media only screen and (min-width:480px)(max-width:767px){
+    
+        .mean-bar{
+        display: block;
+    }
+    
+}
+
